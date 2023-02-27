@@ -107,7 +107,7 @@ Take a note of your volume id: vol-00aa162077fd5a69c
 
 
 ```
-kops delete cluster --name devtechops.dev --state=s3://kops-bucket-rrrandom --yes
+kops delete cluster --name k8s.devtechops.dev --state=s3://kops-bucket-rrrandom --yes
 ```
 
 
