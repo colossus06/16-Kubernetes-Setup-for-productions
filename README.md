@@ -91,7 +91,7 @@ kops export kubecfg --admin
 ```
 
 ```
-kops validate cluster --name  k8s.devtechops.dev --state=s3://kops-bucket-rrrandom --yes --admin
+kops validate cluster --name  k8s.devtechops.dev --state=s3://kops-bucket-rrrandom
 ```
 
 ```
