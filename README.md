@@ -33,7 +33,7 @@ minikube service web --url
 
 
 
-## KOPS
+## KOPS env for production
 
 Create a bucket
 
