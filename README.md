@@ -103,6 +103,27 @@ aws ec2 create-volume \
 
 Take a note of your volume id: vol-00aa162077fd5a69c
 
+```
+kubectl get nodes --show-labels
+kubectl get nodes
+kubectl describe node ip<>
+kubectl label nodes ip<> zone=us-east-1a
+
+kubectl create -f secret.yaml
+kubectl get secret
+kubectl describe secret
+
+
+ kubectl create -f dbdep.yaml
+ kubectl create -f .
+
+```
+
+![image](https://user-images.githubusercontent.com/96833570/222981563-1bba8788-6020-4135-b2fb-2ca940dfc3d1.png)
+
+![image](https://user-images.githubusercontent.com/96833570/222981670-4c89a510-d977-41a5-b355-5fc28a72cbfc.png)
+
+
 ![image](https://user-images.githubusercontent.com/96833570/221618935-22531589-2884-4ced-963d-4fd54b637cea.png)
 
 
